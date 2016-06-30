@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">=5.5",
+        "symfony/console": "2.8.*",
+        "symfony/process": "2.8.*"
+    }
+}
