@@ -3,7 +3,6 @@
     "type": "installer",
     "description": "Helder CMS installer",
     "homepage": "http://www.bureaublauwgeel.nl",
-    "license": "MIT",
     "authors": [
         {
             "name": "Ray Kootstra",
@@ -25,7 +24,11 @@
         "type" : "vcs",
         "url" : "https://github.com/bureaublauwgeel/helder-cms-installer"
     }],
-    "target-dir": "/",
+    "extra": {
+        "installer-paths": {
+            "/": ["vendor/package"]
+        }
+    },
     "version": "1.0.3",
     "minimum-stability": "stable",
     "prefer-stable": true
