@@ -69,8 +69,7 @@ class Install extends Command
 
     protected function configure()
     {
-        $this
-            ->setName('install');
+        $this->setName('install');
     }
 
     /**
@@ -84,7 +83,7 @@ class Install extends Command
         $dialog = $this->getHelperSet()->get('dialog');
         $this->installDir = $dialog->ask(
             $output,
-            '<question>Please specify a non-existing directory to start the Helder CMS installation: </question>'
+            '<question>Please specify a non-existing directory to start the Helder CMS installation:</question> '
         );
 
         $mkdir = null;

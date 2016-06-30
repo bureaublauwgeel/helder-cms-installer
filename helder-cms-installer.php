@@ -23,5 +23,4 @@ $dependencyContainer = new DependencyContainer();
 $application->add($dependencyContainer);
 $application->add(new Install($dependencyContainer));
 $shell = new Shell($application);
-
 $shell->run();
