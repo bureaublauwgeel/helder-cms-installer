@@ -25,6 +25,7 @@
         "type" : "vcs",
         "url" : "https://github.com/bureaublauwgeel/helder-cms-installer"
     }],
+    "target-dir": "/",
     "version": "1.0.1",
     "minimum-stability": "stable",
     "prefer-stable": true
