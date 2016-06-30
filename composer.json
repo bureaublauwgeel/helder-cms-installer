@@ -10,14 +10,22 @@
             "email": "r.kootstra@bureaublauwgeel.nl"
         }
     ],
-    "require": {
+    "keywords" : [
+        "helder cms installer"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
         "php": ">=5.5",
         "symfony/console": "2.8.*",
         "symfony/process": "2.8.*"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    }
+    "repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/bureaublauwgeel/helder-cms-installer"
+    }],
+    "version": "1.0.1",
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
