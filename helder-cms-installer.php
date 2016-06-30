@@ -18,7 +18,7 @@ use Symfony\Component\Console\Application;
 use Command\DependencyContainer;
 use Command\Install;
 
-$application = new Application('Helder CMS installer', '0.0.1-alpha');
+$application = new Application('Helder CMS installer', '1.0.3');
 $dependencyContainer = new DependencyContainer();
 $application->add($dependencyContainer);
 $application->add(new Install($dependencyContainer));
